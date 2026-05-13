@@ -8,7 +8,7 @@ jobs:
     - name: Install spotdl
       run: pip install spotdl
     - name: Download playlist
-      run: spotdl "https://open.spotify.com/playlist/2d27XbqeTU6ePJVokdgg57?si=vjsb4o32QcGeYxiuAJcB8g" 
+      run: spotdl "https://open.spotify.com/playlist/2d27XbqeTU6ePJVokdgg57?si=Pw481dc3RvatpkI9TfkKvA&pi=F6ucS9xHQDqEH"
     - uses: actions/upload-artifact@v3
       with:
         name: music
